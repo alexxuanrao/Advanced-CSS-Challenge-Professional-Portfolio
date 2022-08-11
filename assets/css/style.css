@@ -1,0 +1,144 @@
+* {
+margin: 0;
+padding 0;
+box-sizing: border-box;
+}
+
+body {
+    color: #34d614;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+header {
+    padding: 30px 20px;
+    background-color: rgb(248, 230, 116);
+    display: flex;
+}
+
+header a {
+    color: rgb(247, 92, 237);
+    display: inline-block;
+    font-weight:bolder;
+    font-size: 36px;
+  }
+
+
+header nav {
+    display:inline-flex;
+    float: right;
+    padding-top: 55px;
+    margin-right:0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+header nav ul li {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+header nav ul li:hover { background-color: black;
+}
+
+header nav ul li a {
+    margin: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(62, 221, 241);
+}
+
+footer {
+    background-color: #34d614;
+    width: 100%;
+    padding: 40px 35px;
+    clear:both;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer h2 {
+    display:inline;
+    color:coral;
+    font-size:28px;
+    margin:0%
+}
+
+footer p {
+    text-align: center;
+    color:rgb(246, 246, 246);
+    font-size:28px;
+
+}
+
+section {
+    padding:100px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../images/Cooking\ 3.jpg');
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-size:contain;
+    background-position: center;
+    position: relative;
+}
+
+#greeting {
+    text-align: center;
+    padding: 30px 30px;
+    display:inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+}
+
+.float-left {
+    float:left;
+    margin-right:25px;
+    width: 200px;
+}
+
+
+.content {
+    width: 100%;
+    padding:20px;
+}
+
+.category {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background-color: rgb(248, 230, 116);
+    color:black;
+    line-height: 2.2;
+}
+
+.category:hover { background-color: rgb(247, 92, 237);
+}
+
+#cook {
+    margin-top: -25px;
+}
+
+.category h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
